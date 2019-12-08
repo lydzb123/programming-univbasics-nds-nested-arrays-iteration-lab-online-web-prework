@@ -12,5 +12,4 @@ end
   new_arr
 end
 
-
-puts "hello"
+p join_ingredients(src)
