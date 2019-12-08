@@ -38,7 +38,25 @@ end
 # end
 
 def total_even_pairs(src)
-  
+  total = 0
+  row_index = 0
+    while i < src.count do
+      element_index = 0
+      while element_index < src[row_index].count-1 do
+        if src[row_index][element_index] % 2 = 0 && src[row_index][element_index+1] % 2 = 0
+          total += src[row_index][element_index] + src[row_index][element_index+1]
+            
+          end
+          
+        end
+      end
+          
+      row_index += 1
+    end
+      
+    end
+  total
+end
 
 # def total_even_pairs(src)
 #   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
