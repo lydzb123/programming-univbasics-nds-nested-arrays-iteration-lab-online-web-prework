@@ -6,8 +6,9 @@ def join_ingredients(arr)
     while element_index < arr[row_index].count-1 do
       new_arr.push("I love #{arr[row_index][element_index]} and #{arr[row_index][element_index+1]} on my pizza")
     element_index += 1
-  end
+    end
   row_index += 1
+end
   new_arr
 end
 
