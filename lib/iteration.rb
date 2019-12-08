@@ -10,8 +10,8 @@ def join_ingredients(arr)
   row_index += 1
 end
   new_arr
+  puts new_arr
 end
-
 
 
 
