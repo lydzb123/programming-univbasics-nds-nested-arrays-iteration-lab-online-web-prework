@@ -12,4 +12,4 @@ end
   new_arr
 end
 
-p join_ingredients(src)
+puts join_ingredients(src)
